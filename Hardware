@@ -1,1 +1,23 @@
-Put your hardware design and circuit in this file.
+# Hardware used:
+- ESP32 
+- 2x 1meter pipe
+- Box as a base
+- Umbrella
+- Showerhead and hose
+- 3D-printed holder and cover for the showerhead
+- Speaker + audio module with microSD card reader
+- 2 Buttons
+- Vibration motor + MOSFET
+- 1meter LED strip
+- 1 LED + resistor
+- Breadboard + wires
+
+# Connections:
+Vibration motor to GPIO 2 via MOSFET
+Showerhead LED to pin via resistor 23
+Start shower button pin 13
+Toggle country selection pin 12
+LED strip DATA_PIN 27
+LED strip CLOCK_PIN 14
+DFPlayer RX_PIN 16
+DFPlayer TX_PIN 17
